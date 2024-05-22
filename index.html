@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Health  Quiz </title>
+  <link rel="stylesheet"  href="style.css" >
+</head>
+
+<body>
+  <div class="frontbox" id="content">
+    <div tabindex="-1" class="table">
+      <h1 class="frontheading"><strong>Do You Know Your Body Type?</strong></h1>
+      <img src="https://images.everydayhealth.com/images/healthy-living/body-type-quiz-are-you-an-endomorph-ectomorph-or-mesomorph-1440x810.jpg?sfvrsn=b579de3d_5" data-src="" width="500" height="300" alt="Body-Type-Quiz-Are-You-an-Endomorph-Ectomorph-or-Mesomorph" class="frontimage">
+      <p class="frontdialogue">Knowing your somatotype — whether you’re an ectomorph, mesomorph, or endomorph — may be key to getting the results you want from your eating and exercise regimens.</p>
+    </div>
+    
+    <div id="content">
+  <button id="start-btn"> Take a Quiz</button>
+    </div>
+
+    </div>
+  
+  
+  
+  <div class="app"  style="display:none;">
+    <h1>Health Quiz</h1>
+    <div class = "quiz">
+      <h2 id="question">Question goes here</h2>
+      <div id="option-buttons">
+        <button class="btn">Option 1</button>
+        <button class="btn">Option 2</button>
+        <button class="btn">Option 3</button>
+       <!-- <button class="btn">Answer 1</button> -->
+        <!-- <button class="btn">Answer 1</button> -->
+      </div>
+      <button id = "next-btn" > Next </button>
+    </div>
+  </div>
+  
+  
+
+  <div id="email-container" class="hidden">
+    <h2 id="email-content">Enter your email to see your personality report:</h2>
+    <input type="email" id="email" placeholder="Your email">
+    <h4 id="email-copy">*We’ll email you a copy of your results for convenient access.</h2><br>
+    <h4 id="email-result">By clicking "See My Results" below you acknowledge that you have read,
+       understood, and accepted the Terms of Use and Privacy Policy. 
+       You may receive emails from Queen.health or can unsubscribe at any time.
+      </h4>
+    <button id="submit-email">See My Results</button>
+  </div>
+  
+
+  <div id="result-container" style="display: none;">
+    <h2>Quiz Result</h2>
+    <div id="body-structure"></div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+</script> 
+
+</body>
+</html>
